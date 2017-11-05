@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby '2.3.5'
 #ruby-gemset=railstutorial_rails_4_0
 
-gem 'rails', '4.0.2'
+gem 'rails', '4.0.6' #old version 4.0.1
 gem 'bootstrap-sass', '2.3.2.0'
 gem 'bcrypt-ruby', '3.1.2'
 gem 'faker', '1.1.2'
@@ -11,7 +11,7 @@ gem 'bootstrap-will_paginate', '0.0.9'
 
 group :development, :test do
   gem 'sqlite3', '1.3.10'
-  gem 'rspec-rails', '2.13.1'
+  gem 'rspec-rails', '3.5.0' #old version 2.13.1
   # The following optional lines are part of the advanced setup.
   # gem 'guard-rspec', '2.5.0'
   # gem 'spork-rails', '4.0.0'
@@ -21,10 +21,11 @@ end
 
 group :test do
   gem 'selenium-webdriver', '2.35.1'
-  gem 'capybara', '2.1.0'
+  gem 'capybara', '2.2.0' #old version 2.1.0
   gem 'factory_girl_rails', '4.2.0'
   gem 'cucumber-rails', '1.4.0', :require => false
   gem 'database_cleaner', github: 'bmabey/database_cleaner'
+  gem 'test-unit'
 
   # Uncomment this line on OS X.
   # gem 'growl', '1.0.3'
