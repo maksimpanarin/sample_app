@@ -1,8 +1,8 @@
 GIT
   remote: git://github.com/bmabey/database_cleaner.git
-  revision: 8c14a276ddb8115bb391d59cdf6b706577d29678
+  revision: db928d229ef14486fd55f2fd42227d2412566702
   specs:
-    database_cleaner (1.6.2)
+    database_cleaner (1.6.3)
 
 GEM
   remote: https://rubygems.org/
@@ -55,7 +55,7 @@ GEM
       execjs
     coffee-script-source (1.12.2)
     concurrent-ruby (1.0.5)
-    cucumber (3.0.1)
+    cucumber (3.0.2)
       builder (>= 2.1.2)
       cucumber-core (~> 3.0.0)
       cucumber-expressions (~> 4.0.3)
@@ -130,7 +130,7 @@ GEM
       activesupport (= 4.0.6)
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
-    rake (12.2.1)
+    rake (12.3.0)
     rb-fsevent (0.10.2)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
