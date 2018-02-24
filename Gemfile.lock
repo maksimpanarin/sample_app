@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/bmabey/database_cleaner.git
-  revision: db928d229ef14486fd55f2fd42227d2412566702
+  revision: b393fa81fc864805e79913f4377e316be40f8900
   specs:
     database_cleaner (1.6.3)
 
@@ -32,7 +32,7 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 0.3.37)
     arel (4.0.2)
-    backports (3.10.3)
+    backports (3.11.1)
     bcrypt-ruby (3.1.2)
     bootstrap-sass (2.3.2.0)
       sass (~> 3.2)
@@ -68,7 +68,7 @@ GEM
       backports (>= 3.8.0)
       cucumber-tag_expressions (~> 1.1.0)
       gherkin (>= 5.0.0)
-    cucumber-expressions (5.0.7)
+    cucumber-expressions (5.0.13)
     cucumber-rails (1.4.0)
       capybara (>= 1.1.2)
       cucumber (>= 1.2.0)
@@ -86,10 +86,10 @@ GEM
       railties (>= 3.0.0)
     faker (1.1.2)
       i18n (~> 0.5)
-    ffi (1.9.18)
+    ffi (1.9.22)
     gherkin (5.0.0)
     hike (1.2.3)
-    i18n (0.9.1)
+    i18n (0.9.5)
       concurrent-ruby (~> 1.0)
     jbuilder (1.0.2)
       activesupport (>= 3.0.0)
@@ -103,9 +103,9 @@ GEM
     mime-types (1.25.1)
     mini_portile2 (2.3.0)
     minitest (4.7.5)
-    multi_json (1.12.2)
+    multi_json (1.13.1)
     multi_test (0.1.2)
-    nokogiri (1.8.1)
+    nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
     pg (0.15.1)
     polyglot (0.3.5)
@@ -227,4 +227,4 @@ RUBY VERSION
    ruby 2.3.5p376
 
 BUNDLED WITH
-   1.15.4
+   1.16.1
