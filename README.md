@@ -1,5 +1,2 @@
-# Перевод Ruby on Rails Tutorial: пример приложения
+# You can check it [here](https://sample-twitter-mp.herokuapp.com/)
 
-Это пример приложения для
-[*Ruby on Rails Tutorial*](http://railstutorial.org/)
-by [Майкл Хартл](http://michaelhartl.com/).
