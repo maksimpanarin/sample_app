@@ -1,4 +1,4 @@
-# You can check it here https://ancient-badlands-46018.herokuapp.com/
+# Перевод Ruby on Rails Tutorial: пример приложения
 
 Это пример приложения для
 [*Ruby on Rails Tutorial*](http://railstutorial.org/)
